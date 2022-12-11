@@ -2,7 +2,7 @@ pkg update
 pkg upgrade -y
 pkg install cmake m4 ninja bison \
 php python make build-essential \
-texinfo rust rustc rust-docs rustscan \
+texinfo rust rust-docs rustscan \
 rust-std-wasm32 rust-analyzer \
 rust-bindgen rust-nightly-wasm32-unknown-unknown\
  rustc-dev llvm shc \
