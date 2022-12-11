@@ -17,7 +17,7 @@ getconf fontconf* dotconf* \
  -y
 
 pkg install python2 python3 fuse \
-qemu-user-* binutils -y
+qemu-user-* binutils nmap file -y
 
 pip3 install --upgradable pip
 pip3 install wheel
