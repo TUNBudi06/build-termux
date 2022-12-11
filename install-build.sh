@@ -15,3 +15,8 @@ libdw-static libdw gettext intltool \
 libconfuse libconfuse-static \
 getconf fontconf* dotconf* \
  -y
+
+pkg install python2 python3 fuse -y
+
+pip3 install --upgradable pip
+pip3 install wheel
